@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reproductor pruebas</title>
+	<!--FONTELLO CSS-->
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello-embedded.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<!--FONTELLO CSS-->
+
+	<!--CSS-->
+  <link rel="stylesheet" type="text/css" href="css/sonido.css">
+
+  <script  src="js/jquery.min.js" type="text/javascript"></script>
+	<!--bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!--REPRODUCTOR-->
+<div id="Reproductor">
+<div class="Reproductor">
+
+<div class="titulo">
+	<span class="nombre">NOMBRE DE LA CANCION</span>
+</div>	
+
+
+<div class="rep-body">
+	<div class="reproductor">
+		<div class="reproduction">
+			<div class="reproducted"></div>
+		</div>
+	</div>
+</div>
+
+<div class="buttons-time">
+	<div class="time">
+		<span class="time-song">
+			<span class="played">00:00</span>/<span class="duration">00:00</span>
+		</span>
+	</div>
+</div>
+
+<div class="buttons">
+	<i class="icon-play"></i>
+	<i class="icon-pause"></i>
+
+	
+</div>
+
+
+<div class="container" style="margin-top: 120px; max-height: 400px; overflow-y:auto;overflow-x: hidden; max-width: 100%">
+	
+
+	<i class="icon-to-start-alt"></i>
+	<i class="icon-to-end-alt"></i>
+
+  <button type="button" class="btn btn-info " data-toggle="collapse" data-target="#collapse1">    <span style="font-style: 16px" class="glyphicon glyphicon-download animated bounceInDown "></span></button>
+  <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+          
+          <li class="list-group-item song play active" style="width: 100%;" data-name="sonido" data-type="mp3" data-id="1">
+          <i style="color: black" class="glyphicon glyphicon-cd">
+          <span style="color: red;"> ONE - TITLE</span>
+          </i>
+
+
+          	<i class="icon-play status" style="color: red;"></i>
+           <i style="color: red" class="fa fa-circle-o-notch fa-spin fa-1x fa-fw status"></i>
+          </li>
+
+          <li class="list-group-item song" style="width: 100%;" data-name="bizarro" data-type="mp3">
+          <i style="color: black" class="glyphicon glyphicon-cd ">
+          <span style="color: red;"> 2 - TITLE</span>
+          </i>
+          </li>
+
+          <li class="list-group-item song" style="width: 100%;" data-name="bizarro" data-type="mp3">
+          <i style="color: black" class="glyphicon glyphicon-cd ">
+          <span style="color: red;"> 2 - TITLE</span>
+          </i>
+          </li>
+
+
+          <li class="list-group-item song" style="width: 100%;" data-name="bizarro" data-type="mp3">
+          <i style="color: black" class="glyphicon glyphicon-cd ">
+          <span style="color: red;"> 2 - TITLE</span>
+          </i>
+          </li>
+
+
+          <li class="list-group-item song" style="width: 100%;" data-name="bizarro" data-type="mp3">
+          <i style="color: black" class="glyphicon glyphicon-cd ">
+          <span style="color: red;"> 2 - TITLE</span>
+          </i>
+          </li>
+
+          <li class="list-group-item song" style="width: 100%;" data-name="bizarro" data-type="mp3">
+          <i style="color: black" class="glyphicon glyphicon-cd ">
+          <span style="color: red;"> 2 - TITLE</span>
+          </i>
+          </li>
+
+          <li class="list-group-item song" style="width: 100%;" data-name="bizarro" data-type="mp3">
+          <i style="color: black" class="glyphicon glyphicon-cd ">
+          <span style="color: red;"> 2 - TITLE</span>
+          </i>
+          </li>
+
+          <li class="list-group-item song" style="width: 100%;" data-name="bizarro" data-type="mp3">
+          <i style="color: black" class="glyphicon glyphicon-cd ">
+          <span style="color: red;"> 2 - TITLE</span>
+          </i>
+          </li>
+
+          <li class="list-group-item song" style="width: 100%;" data-name="bizarro" data-type="mp3">
+          <i style="color: black" class="glyphicon glyphicon-cd ">
+          <span style="color: red;"> 2 - TITLE</span>
+          </i>
+          </li>
+
+          <li class="list-group-item song" style="width: 100%;" data-name="bizarro" data-type="mp3">
+          <i style="color: black" class="glyphicon glyphicon-cd ">
+          <span style="color: red;"> 2 - TITLE</span>
+          </i>
+          </li>
+
+        </ul>
+      </div>
+</div>
+
+
+
+</div>
+</div>
+
+	<audio   src="canciones/sonido.mp3" type="audio/mpeg" autoplay></audio>
+	<script src="js/sonido.js" type="text/javascript"></script>
+</body>
+</html>

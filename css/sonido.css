@@ -1,0 +1,209 @@
+/*estilos generales*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+-webkit-box-sizing:border-box;
+}
+
+html. body{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+i{
+	cursor: pointer;
+	color:#fff;
+	margin: 2px;
+}
+
+
+/*estilos generales*/
+
+
+#Reproductor{
+	display: block;
+	width: 50%;
+	border-style: solid;
+	border-color: red;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#Reproductor .Reproductor {
+	background:black;
+	color:#fff;
+	padding: 10px;
+	height: 400px;
+
+}
+
+#Reproductor .Reproductor .titulo {
+	text-align: center;
+
+}
+
+
+
+#Reproductor .Reproductor .rep-body {
+	padding: 8px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin-top:20px;	
+
+}
+
+
+#Reproductor .Reproductor .rep-body  .reproduction{
+	width: 100%;
+	background: url('https://cdn.pixabay.com/photo/2014/10/21/02/18/sound-495859_640.jpg')fixed;	
+	position: relative;
+    height: 400px;
+    margin-top: -150px;
+    width: 100%
+}
+
+
+#Reproductor .Reproductor .rep-body  .reproduction .reproducted{
+	width: 0%;
+	height: 400px;
+	background: rgba(148, 148, 148, 0.49);
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+}
+
+
+
+#Reproductor .Reproductor .rep-body  .reproduction .circle{
+	
+
+
+}
+
+
+
+
+
+
+#Reproductor .Reproductor .buttons-time{
+	float: left;
+    width: 100px;
+    position: relative;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    z-index: 0;
+    margin-left: 90%;
+    margin-top: -18%;
+    color: red;
+
+}
+
+#Reproductor .Reproductor .buttons-time .time{
+
+	text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+
+
+#Reproductor .Reproductor  .buttons {
+    width: 40px;
+    height: 40px;
+    /* border: solid; */
+    text-align: center;
+    /* float: left; */
+    width: 50px;
+    position: relative;
+    height: 50px;
+    background: #fff;
+    /* text-align: center; */
+    z-index: 0;
+    /* margin-left: 90%; */
+    margin-top: -18%;
+    color: red;
+
+}
+
+#Reproductor .Reproductor  .buttons .icon-play{
+
+      position: relative;
+    top: 15px;
+    /* margin: 5px; */
+    color: red;
+}
+#Reproductor .Reproductor  .buttons .icon-pause{
+display: none;
+
+
+
+  position: relative;
+    top: 15px;
+    /* margin: 5px; */
+    color: red;
+}
+
+.play{
+	    background: rgba(132, 134, 136, 0.56) !important;
+}
+
+
+   .animated {
+            background-repeat: no-repeat;
+            background-position: left top;
+       
+       -webkit-animation: bounceInDown infinite; /* Safari 4.0 - 8.0 */
+       -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+       animation: bounceInDown infinite;
+       animation-duration: 2s;
+
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes bounceInDown {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateY(-2000px);
+            }
+            60% {
+               opacity: 1;
+               -webkit-transform: translateY(30px);
+            }
+            80% {
+               -webkit-transform: translateY(-10px);
+            }
+            100% { 
+               -webkit-transform: translateY(0);
+            }
+         }
+         
+         @keyframes bounceInDown {
+        0% {
+               opacity: 0;
+               transform: translateY(-2px);
+            }
+            60% {
+               opacity: 1;
+               transform: translateY(2px);
+            }
+            80% {
+               transform: translateY(-6px);
+            }
+            100% {
+               transform: translateY(0);
+            }
+         }
+         
+         .bounceInDown {
+            -webkit-animation-name: bounceInDown;
+            animation-name: bounceInDown;
+         }
